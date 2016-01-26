@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-localstorage",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.6.0",
+  "description": "Provide an adapter to use the localstorage api with ember",
   "directories": {
     "doc": "doc",
     "test": "tests"
