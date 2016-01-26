@@ -1,6 +1,19 @@
 // global variables
 
+/**
+ *
+ * OLD TESTS!!! Not working right now!
+ *
+ *
+ *
+ *
+ */
 import Ember from "ember"
+import FIXTURES from "./../helpers/fixtures"
+
+import DS from "ember-data"
+import LocalStorageAdapter from "ember-cli-localstorage/adapters/local-storage"
+import LocalStorageSerializers from "ember-cli-localstorage/serializers/local-storage"
 
 var get = Ember.get,
     App = {};

@@ -1,4 +1,4 @@
-var FIXTURES = {
+export default FIXTURES = {
     'list': {
         records: {
             'l1': { id: 'l1', name: 'one', b: true, items: ['i1', 'i2'] },
