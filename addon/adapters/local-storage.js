@@ -232,6 +232,11 @@ export default Ember.Object.extend(Ember.Evented, {
 
     // This exists primarily as a testing extension point
     getNativeStorage: function() {
+        //Test if the local storage is not deactivated. For example in safari private mode it is not allowed to use the localstorage
+        if(typeof localStorage != "undefined"){
+            localStorage.setItem("_TEST_", "_TEST_")
+            localStorage.removeItem("_TEST_")
+        }
         return localStorage;
     },
 
